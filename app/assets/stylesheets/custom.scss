@@ -13,7 +13,35 @@
     color: #000 !important;
   }
 }
+// Navigation //
+.navbar.navbar-default.navbar-static-top {
+  background-color: transparent;
+  border-bottom: none;
+  margin-bottom: 20px;
+  z-index: 5;
+}
 
+.navbar-default .navbar-brand {
+  font-size: 30px;
+  color: #cc811d;
+  text-shadow: -1px 0 #252525, 0 1px #252525, 1px 0 #252525, 0 -1px #252525;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #986017;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #cc811d;
+  text-shadow: -1px 0 #252525, 0 1px #252525, 1px 0 #252525, 0 -1px #252525;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+  border-bottom: 1px solid #C6CCCC;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
 .logout {
   padding-left: 0;
 }
@@ -117,4 +145,16 @@ h3 {
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.btn.btn-primary.sign-up {
+  border-radius: 200px;
+  box-shadow: 0 3px 0 #357EBD;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.btn-primary.sign-up:hover {
+  background-color: transparent;
+  box-shadow: 0 3px 0 #245682;
+  transition: all 0.2s ease-in-out;
 }
