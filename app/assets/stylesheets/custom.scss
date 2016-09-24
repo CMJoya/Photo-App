@@ -157,10 +157,11 @@ h3 {
 .btn.btn-primary.sign-up {
   border-radius: 200px;
   transition: all 0.2s ease-in-out;
+  box-shadow: 0 3px 0 #245682;
 }
 
 .btn.btn-primary.sign-up:hover {
   background-color: transparent;
-  box-shadow: 0 3px 0 #245682;
   transition: all 0.2s ease-in-out;
+  box-shadow: none;
 }
