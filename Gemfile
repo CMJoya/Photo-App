@@ -50,3 +50,4 @@ gem 'rails_12factor', group: :production
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'twitter-bootstrap-rails'
+gem 'stripe'
